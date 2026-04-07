@@ -1,13 +1,21 @@
-import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './App.css';
+
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import Releases from './pages/Releases';
+import HowToBuy from './pages/HowToBuy';
 
 function App() {
   return (
-    <div className="container mt-5">
-      <h1 className="text-center">Apocalyptic</h1>
-      <button className="btn btn-primary mt-3">
-        Primer botón Bootstrap
-      </button>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/releases" element={<Releases />} />
+        <Route path="/how-to-buy" element={<HowToBuy />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
