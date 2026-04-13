@@ -20,12 +20,14 @@ function Home() {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           opacity: 0.15,
-          zIndex: 1,
+          zIndex: 0,
         }}
       />
 
       {/* Contenido */}
-      <div className="container text-center mt-5">
+      <div className="container text-center mt-5"
+      style={{ position: 'relative', zIndex: 1 }}
+      >
         <Logo />
         <NavMenu />
         <Whatsapp />
