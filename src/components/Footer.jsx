@@ -6,7 +6,7 @@ import bandcamp from '../assets/img/bandcamp.svg';
 function Footer() {
   return (
     <div className="text-center mt-5 contact">
-      <p>+569 6328 6663</p>
+      <p>++569 6238 6663</p>
       <p>info@apocalypticprods.com</p>
 
       <div className="d-flex justify-content-center align-items-center gap-4 mt-4">
