@@ -1,9 +1,9 @@
 .nav-content {
   display: flex;
-  flex-direction: column;   /* uno debajo del otro */
-  align-items: center;      /* centra horizontalmente */
-  justify-content: center;  /* centra verticalmente (si hay altura) */
-  gap: 20px;                /* espacio entre bandcamp y soundcloud */
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
 }
 
 .bandcamp {
@@ -15,17 +15,17 @@
 }
 
 .soundcloud {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 90%;
-    z-index: 2 !important;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+  z-index: 2 !important;
 
 }
 
 .buy-button {
   position: relative;
-  left: -45.7%;
+  left: -44%;
   padding: 5px 22px;
   background-color: #540111;
   color: #dfdfdf;
@@ -40,12 +40,11 @@
   transform: translateY(-1px);
 }
 
-/* iframe{
-	width: 80%;
-} */
-
 @media (max-width: 480px) {
-    
+
+  .buy-button {
+    left: -34%;
+  }
 }
 
 
