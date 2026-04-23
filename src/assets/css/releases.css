@@ -1,0 +1,17 @@
+.soundcloud {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+iframe{
+	width: 100%;
+}
+
+@media (max-width: 480px) {
+iframe{
+	width: 90%;
+}
+}
+

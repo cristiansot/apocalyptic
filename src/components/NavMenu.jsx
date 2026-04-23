@@ -1,13 +1,12 @@
-import NavButton from './NavButton';
+import NavButton from "./NavButton";
+import '../assets/css/navmenu.css';
 
 function NavMenu() {
   return (
-    <div className="text-center mt-4">
+    <nav className="navmenu">
       <NavButton text="Releases" to="/releases" />
-      <NavButton text="Store" to="https://apocalypticprods.com/store" external />
-      <NavButton text="How to buy?" to="/how-to-buy" />
-      <NavButton text="Write to me" to="/contact" />
-    </div>
+      <NavButton text="Store" to="https://apocalypticprods.com/store" external />      
+    </nav>
   );
 }
 

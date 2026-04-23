@@ -1,16 +1,23 @@
 import { Link } from 'react-router-dom';
 
 function NavButton({ text, to, external }) {
+  const className = "nav-button";
+
   if (external) {
     return (
-      <a href={to} target="_blank" className="nav-button d-block my-2">
+      <a
+        href={to}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={className}
+      >
         {text}
       </a>
     );
   }
 
   return (
-    <Link to={to} className="nav-button d-block my-2">
+    <Link to={to} className={className}>
       {text}
     </Link>
   );

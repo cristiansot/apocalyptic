@@ -1,5 +1,27 @@
+/* * {
+  outline: 1px solid red;
+} */
 
+@media (max-width: 480px) {
 
-  @media (max-width: 1024px) {
+  body{
+    align-content: center;
   }
+
+  .nav-button {
+    font-size: 40px;
+    letter-spacing: 1px;
+  }
+
+  .mail {
+    margin-top: -20px;
+    margin-bottom: -20px;
+  }
+
+  #root {
+    height: 100dvh;
+    overflow: hidden;
+  }
+}
+
   
