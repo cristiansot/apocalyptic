@@ -3,6 +3,7 @@ import '../assets/css/nav.css';
 import logo from '../assets/img/apoca_logo.svg';
 import background from '../assets/img/background.jpg';
 
+//Se mjestra en las páginas internas
 function Nav() {
   return (
     <div className="nav-wrapper">
@@ -24,7 +25,6 @@ function Nav() {
 
       <nav className="nav">
         <NavButton text="Home" to="/" />
-        <NavButton text="Releases" to="/releases" />
         <NavButton text="Store" to="https://apocalypticprods.com/store" external />
       </nav>
     </div>

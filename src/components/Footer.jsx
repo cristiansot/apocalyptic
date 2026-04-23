@@ -11,7 +11,7 @@ function Footer() {
       <div className="d-flex justify-content-center align-items-center gap-4 mt-4">
 
       <a 
-        href="https://apocalypticprods.bandcamp.com/track/ejecutor-m-dium-la-daga-de-la-iniciaci-n"
+        href="https://apocalypticprods.bandcamp.com/music"
         target="_blank" 
         className="d-flex align-items-center justify-content-center"
         style={{ width: '70px', height: '65px' }}

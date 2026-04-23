@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+//Es la base de los botones
 function NavButton({ text, to, external }) {
   const className = "nav-button";
 

@@ -4,6 +4,8 @@
   gap: 20px;
   flex-wrap: wrap;
   margin-bottom: 30px !important;
+  position: relative;
+  z-index: 1 !important;
 }
 
 .nav-logo {

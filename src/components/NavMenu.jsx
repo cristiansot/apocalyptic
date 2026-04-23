@@ -1,6 +1,7 @@
 import NavButton from "./NavButton";
 import '../assets/css/navmenu.css';
 
+//Se muestra en el Index
 function NavMenu() {
   return (
     <nav className="navmenu">
