@@ -6,9 +6,12 @@ import sulphuricimg from '../assets/img/coverart/sulphuric.webp';
 import devouredimg from '../assets/img/coverart/devoured.webp';
 import devsimg from '../assets/img/coverart/devs.webp';
 import malignantimg from '../assets/img/coverart/malignant.webp';
-import gorjeoimg from '../assets/img/coverart/gorjeo.webp'
-import strigoiimg from '../assets/img/coverart/strigoi.webp'
-
+import gorjeoimg from '../assets/img/coverart/gorjeo.webp';
+import strigoiimg from '../assets/img/coverart/strigoi.webp';
+import metastasisimg from'../assets/img/coverart/metastasis.webp';
+import abrekadaverimg from'../assets/img/coverart/abrekadaver.webp';
+import lextalionisimg2 from'../assets/img/coverart/lextalionis.webp';
+import cambionimg from'../assets/img/coverart/cambion.webp';
 
 const tracksBandcamp = [
   { 
@@ -73,10 +76,38 @@ const tracksBandcamp = [
     format: "", 
     buy: "" 
   },
-  { id: "1852725793", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "2908697663", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "3197642165", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "2433724059", art: "", title: "", cdName: "", format: "", buy: "" },
+  { 
+    id: "1852725793", 
+    art: metastasisimg, 
+    title: "METASTASIS", 
+    cdName: "Nameless Grave", 
+    format: "CD", 
+    buy: "https://apocalypticprods.com/store/product/metastasis-chile-fatal-morphosis-cd/" 
+  },
+  { 
+    id: "2908697663", 
+    art: abrekadaverimg, 
+    title: "ABREKADAVER ", 
+    cdName: "Aleph", 
+    format: "", 
+    buy: "" 
+  },
+  { 
+    id: "3197642165", 
+    art: lextalionisimg2, 
+    title: "LEX TALIONIS", 
+    cdName: "Triumph of Darkness", 
+    format: "", 
+    buy: "" 
+  },
+  { 
+    id: "2433724059", 
+    art: cambionimg, 
+    title: "CAMBION", 
+    cdName: "Scourge of Power", 
+    format: "", 
+    buy: "" 
+  },
   { id: "3725037500", art: "", title: "", cdName: "", format: "", buy: "" },
   { id: "3907322557", art: "", title: "", cdName: "", format: "", buy: "" },
   { id: "2607013922", art: "", title: "", cdName: "", format: "", buy: "" },
