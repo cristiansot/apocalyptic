@@ -12,6 +12,26 @@ import metastasisimg from'../assets/img/coverart/metastasis.webp';
 import abrekadaverimg from'../assets/img/coverart/abrekadaver.webp';
 import lextalionisimg2 from'../assets/img/coverart/lextalionis.webp';
 import cambionimg from'../assets/img/coverart/cambion.webp';
+import bloodimg from '../assets/img/coverart/blood.webp';
+import violentimg from '../assets/img/coverart/violent.webp';
+import sulphuricdeathimg from '../assets/img/coverart/sulphuricdeath.webp';
+import necrolatriaimg from '../assets/img/coverart/necrolatria.webp';
+import sadisticimg from '../assets/img/coverart/sadistic.webp';
+import miserycoreimg from '../assets/img/coverart/miserycore.webp';
+import ejecutorimg from '../assets/img/coverart/ejecutor.webp';
+import unholyimg from '../assets/img/coverart/unholy.webp';
+import phantasmagoreimg from '../assets/img/coverart/phantasmagore.webp';
+import exanimatvumimg from '../assets/img/coverart/exanimatvum.webp';
+import deathimg from '../assets/img/coverart/death.webp';
+import deathlyimg from '../assets/img/coverart/deathly.webp';
+import diabolicalimg from '../assets/img/coverart/diabolical.webp';
+import gatesimg from '../assets/img/coverart/gates.webp';
+import ejecutor2img from '../assets/img/coverart/ejecutor2.webp';
+import vomitimg from '../assets/img/coverart/vomit.webp';
+import suppressionimg from '../assets/img/coverart/suppression.webp';
+import cenotafioimg from '../assets/img/coverart/cenotafio.webp';
+import evilimg from '../assets/img/coverart/evil.webp';
+import conciliumimg from '../assets/img/coverart/concilium.webp';
 
 const tracksBandcamp = [
   { 
@@ -97,7 +117,7 @@ const tracksBandcamp = [
     art: lextalionisimg2, 
     title: "LEX TALIONIS", 
     cdName: "Triumph of Darkness", 
-    format: "", 
+    format: "CD", 
     buy: "" 
   },
   { 
@@ -105,31 +125,179 @@ const tracksBandcamp = [
     art: cambionimg, 
     title: "CAMBION", 
     cdName: "Scourge of Power", 
-    format: "", 
+    format: "CD", 
     buy: "" 
   },
-  { id: "3725037500", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "3907322557", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "2607013922", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "446909161", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "3512396342", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "2782409824", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "1338992546", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "4025260142", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "4117924667", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "3961142673", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "3301606792", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "1156996036", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "1169274164", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "931535832", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "284168913", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "2349646907", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "1364007853", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "15267059", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "3173831858", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "2068412031", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "315591286", art: "", title: "", cdName: "", format: "", buy: "" },
-  { id: "1538902465", art: "", title: "", cdName: "", format: "", buy: "" }
+  { 
+    id: "3725037500", 
+    art: bloodimg, 
+    title: "BLOOD OATH", 
+    cdName: "The Journey Into The Depths", 
+    format: "CD", 
+    buy: ""
+  },
+  { 
+    id: "3907322557", 
+    art: violentimg, 
+    title: "VIOLENT SCUM", 
+    cdName: "Hematic Dinner", 
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    id: "2607013922", 
+    art: sulphuricdeathimg, 
+    title: "SULPHURIC DEATH",
+    cdName: "Immersed Into Eternal Fire",
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    id: "446909161", 
+    art: necrolatriaimg, 
+    title: "NECROLATRIA", 
+    cdName: "Secrets from the Abysmal Chasms", 
+    format: "CD", 
+    buy: ""
+  },
+  { 
+    id: "3512396342", 
+    art: sadisticimg, 
+    title: "SADISTIC", 
+    cdName: "Denied", 
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    id: "2782409824", 
+    art: miserycoreimg, 
+    title: "MISERYCORE", 
+    cdName: "Milicia de Rabia", 
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    id: "1338992546", 
+    art: ejecutorimg, 
+    title: "EJECUTOR", 
+    cdName: "Armaggedon", 
+    format: "CD / Split", 
+    buy: "https://apocalypticprods.com/store/product/throneum-polonia-ejecutor-chile-cd-split/" 
+  },
+  { id: "4025260142", 
+    art: ejecutorimg, 
+    title: "THRONEUM", 
+    cdName: "Kaang the Praying Mantis", 
+    format: "CD / Split", 
+    buy: "https://apocalypticprods.com/store/product/throneum-polonia-ejecutor-chile-cd-split/", 
+  },
+  { id: "4117924667", 
+    art: unholyimg, 
+    title: "UNHOLY FORCE", 
+    cdName: "Covenant of Death", 
+    format: "CD", 
+    buy: "" 
+  },
+  { id: "3961142673", 
+    art: phantasmagoreimg, 
+    title: "PHANTASMAGORE", 
+    cdName: "Overwhelming Recognition", 
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    id: "3301606792", 
+    art: exanimatvumimg, 
+    title: "EXANIMATVM", 
+    cdName: "Magna Veritas", 
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    id: "1156996036", 
+    art: deathimg, 
+    title: "DEATH PREVAILS", 
+    cdName: "Burning Flesh Sacrifice", 
+    format: "CD - falta subirl el producto para hacer el link", 
+    buy: "" 
+  },
+  { id: "1169274164", 
+    art: deathlyimg, 
+    title: "DEATHLY SCYTHE", 
+    cdName: "Evil Magick", 
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    id: "931535832", 
+    art: diabolicalimg, 
+    title: "DIABOLICAL MESSIAH", 
+    cdName: "Unmerciful Campaign of Hate", 
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    id: "284168913", 
+    art: gatesimg, 
+    title: "GATES OF TYRANT", 
+    cdName: "Liberation Ceremony", 
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    id: "2349646907", 
+    art: ejecutor2img, 
+    title: "EJECUTOR", 
+    cdName: "Metal Venenoso", 
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    id: "1364007853", 
+    art: vomitimg, 
+    title: "VOMIT", 
+    cdName: "Invoker of the Past", 
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    id: "15267059", 
+    art: suppressionimg, 
+    title: "SUPPRESSION", 
+    cdName: "Fruit of Sickness", 
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    id: "3173831858", 
+    art: cenotafioimg, 
+    title: "CENOTAFIO", 
+    cdName: "El Martirio", 
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    id: "2068412031", 
+    art: evilimg, 
+    title: "EVIL SPECTRUM", 
+    cdName: "Altars in Burial Flames", 
+    format: "CD / Split", 
+    buy: "" 
+  },
+  { id: "315591286", 
+    art: evilimg, 
+    title: "UTTERTOMB", 
+    cdName: "Heic Noenum Pax", 
+    format: "CD / Split", 
+    buy: "" 
+  },
+  { id: "1538902465", 
+    art: conciliumimg, 
+    title: "CONCILIVM", 
+    cdName: "Dark Zenith", 
+    format: "CD", 
+    buy: "" 
+  }
 ];
 
 const tracksSoundcloud = [
