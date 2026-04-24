@@ -32,6 +32,9 @@ import suppressionimg from '../assets/img/coverart/suppression.webp';
 import cenotafioimg from '../assets/img/coverart/cenotafio.webp';
 import evilimg from '../assets/img/coverart/evil.webp';
 import conciliumimg from '../assets/img/coverart/concilium.webp';
+import henosisimg from '../assets/img/coverart/henosis.webp';
+import necranastasisimg from '../assets/img/coverart/necranastasis.webp';
+import ukultenimg from '../assets/img/coverart/ukulten.webp'
 
 const tracksBandcamp = [
   { 
@@ -274,7 +277,7 @@ const tracksBandcamp = [
     title: "CENOTAFIO", 
     cdName: "El Martirio", 
     format: "CD", 
-    buy: "" 
+    buy: "https://apocalypticprods.com/store/product/cenotafio-chile-larvae-tedeum-teratos-cd/" 
   },
   { 
     id: "2068412031", 
@@ -301,7 +304,30 @@ const tracksBandcamp = [
 ];
 
 const tracksSoundcloud = [
-  { track: "https://soundcloud.com/apocalypticprods/unaussprechlichen-kulten-nephren-ka-nyarlathotep", buy: "" },
+  {
+    track: "https://soundcloud.com/apocalypticprods/henosis-promethean-salvation", 
+    art: henosisimg,
+    title: "HENOSIS",
+    cdName: "Promethean Salvation",
+    format: "CD",
+    buy: "" 
+  },
+  {
+    track: "https://soundcloud.com/apocalypticprods/grimorio-gloriam-sathanas",
+    art: necranastasisimg,
+    title: "GRIMORIO",
+    cdName: "Gloriam Sathanas",
+    format: "CD",
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/unaussprechlichen-kulten-nephren-ka-nyarlathotep", 
+    art: ukultenimg,
+    title: "U KULTEN",
+    cdName: "Nephren Ka-Nyarlathotep (Starry Wisdom)",
+    format: "CD",
+    buy: "" 
+  },
   { track: "https://soundcloud.com/apocalypticprods/capilla-ardiente-waltz-the-night", buy: "" },
   { track: "https://soundcloud.com/apocalypticprods/concilivm-dark-zenith", buy: "" },
   { track: "https://soundcloud.com/apocalypticprods/13-bells-of-doom-chile-tales-from-the-crypt", buy: "" },
@@ -341,45 +367,63 @@ const tracksSoundcloud = [
 ];
 
 function Releases() {
+  // Verifica que los arrays existan
+  const validTracksBandcamp = tracksBandcamp || [];
+  const validTracksSoundcloud = tracksSoundcloud || [];
+
+  if (!validTracksBandcamp.length && !validTracksSoundcloud.length) {
+    return (
+      <>
+        <Nav />
+        <div className="nav-content">
+          <div className="container">
+            <p>No hay releases disponibles</p>
+          </div>
+        </div>
+      </>
+    );
+  }
+
   return (
     <>
       <Nav />
 
       <div className="nav-content">
 
-        {/* SECCIÓN DE BANDCAMP CON CARDS DE DOS COLUMNAS */}
+        {/* SECCIÓN DE BANDCAMP */}
         <div className="bandcamp container">
           <div className="row">
-            {tracksBandcamp.map((item, i) => (
+            {validTracksBandcamp.map((item, i) => (
               <div key={i} className="col-12 col-md-6 mb-4">
                 <div className="track-card">
-                  
-                  {/* Card con estructura de dos columnas */}
+
                   <div className="card-two-columns">
-                    
-                    {/* Columna izquierda: imagen */}
+
                     {item.art && (
                       <div className="card-image-col">
-                        <img 
-                          src={item.art} 
-                          alt={item.title || "Cover art"} 
-                          className="card-artwork" 
+                        <img
+                          src={item.art}
+                          alt={item.title || "Cover art"}
+                          className="card-artwork"
+                          onError={(e) => {
+                            e.target.onerror = null;
+                            e.target.src = 'ruta/a/imagen-placeholder.jpg';
+                          }}
                         />
                       </div>
                     )}
-                    
-                    {/* Columna derecha: información */}
+
                     <div className="card-info-col">
                       <h4 className="card-title">{item.title || "Untitled"}</h4>
-                      
+
                       {item.cdName && (
                         <p className="card-cdname">"{item.cdName}"</p>
                       )}
-                      
+
                       {item.format && (
                         <p className="card-format">{item.format}</p>
                       )}
-                      
+
                       {item.buy && (
                         <a
                           href={item.buy}
@@ -391,10 +435,9 @@ function Releases() {
                         </a>
                       )}
                     </div>
-                    
+
                   </div>
-                  
-                  {/* Reproductor debajo de las dos columnas */}
+
                   {item.id && (
                     <div className="card-player">
                       <iframe
@@ -406,7 +449,7 @@ function Releases() {
                       />
                     </div>
                   )}
-                  
+
                 </div>
               </div>
             ))}
@@ -416,28 +459,68 @@ function Releases() {
         {/* SECCIÓN DE SOUNDCLOUD */}
         <div className="soundcloud container">
           <div className="row">
-            {tracksSoundcloud.map((item, i) => (
+            {validTracksSoundcloud.map((item, i) => (
               <div key={i} className="col-12 col-md-6 mb-4">
                 <div className="track-card">
-                  <iframe
-                    loading="lazy"
-                    style={{ border: 0, width: '100%', height: '120px' }}
-                    allow="autoplay"
-                    src={`https://w.soundcloud.com/player/?url=${encodeURIComponent(item.track)}&color=%230687f5&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`}
-                    title="Soundcloud player"
-                  />
-                  {item.buy && (
-                    <div className="buy-button-container mt-2">
-                      <a
-                        href={item.buy}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="buy-button"
-                      >
-                        Comprar
-                      </a>
+
+                  {/* Misma estructura de dos columnas que Bandcamp */}
+                  <div className="card-two-columns">
+
+                    {/* Columna izquierda: imagen */}
+                    {item.art && (
+                      <div className="card-image-col">
+                        <img
+                          src={item.art}
+                          alt={item.title || "Cover art"}
+                          className="card-artwork"
+                          onError={(e) => {
+                            e.target.onerror = null;
+                            e.target.src = 'ruta/a/imagen-placeholder.jpg';
+                          }}
+                        />
+                      </div>
+                    )}
+
+                    {/* Columna derecha: información */}
+                    <div className="card-info-col">
+                      <h4 className="card-title">{item.title || "Untitled"}</h4>
+
+                      {item.cdName && (
+                        <p className="card-cdname">"{item.cdName}"</p>
+                      )}
+
+                      {item.format && (
+                        <p className="card-format">{item.format}</p>
+                      )}
+
+                      {/* Botón Comprar en la misma posición que Bandcamp */}
+                      {item.buy && (
+                        <a
+                          href={item.buy}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="buy-button"
+                        >
+                          Comprar
+                        </a>
+                      )}
+                    </div>
+
+                  </div>
+
+                  {/* Reproductor de Soundcloud debajo */}
+                  {item.track && (
+                    <div className="card-player">
+                      <iframe
+                        loading="lazy"
+                        style={{ border: 0, width: '100%', height: '120px' }}
+                        allow="autoplay"
+                        src={`https://w.soundcloud.com/player/?url=${encodeURIComponent(item.track)}&color=%230687f5&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`}
+                        title="Soundcloud player"
+                      />
                     </div>
                   )}
+
                 </div>
               </div>
             ))}
