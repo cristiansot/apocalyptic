@@ -1,5 +1,7 @@
 import Nav from '../components/Nav';
 import '../assets/css/releases.css';
+import Footer from '../components/Footer';
+
 import ejecutorImg from '../assets/img/coverart/ejecutor-medium-daga.webp';
 import lextalionisimg from '../assets/img/coverart/lex-talionis-revelations.webp';
 import sulphuricimg from '../assets/img/coverart/sulphuric.webp';
@@ -33,8 +35,37 @@ import cenotafioimg from '../assets/img/coverart/cenotafio.webp';
 import evilimg from '../assets/img/coverart/evil.webp';
 import conciliumimg from '../assets/img/coverart/concilium.webp';
 import henosisimg from '../assets/img/coverart/henosis.webp';
-import necranastasisimg from '../assets/img/coverart/necranastasis.webp';
-import ukultenimg from '../assets/img/coverart/ukulten.webp'
+import grimorioimg from '../assets/img/coverart/grimorio.webp';
+import ukultenimg from '../assets/img/coverart/ukulten.webp';
+import capillaimg from '../assets/img/coverart/capilla.webp';
+import bellsimg from '../assets/img/coverart/bells.webp';
+import morbidimg from '../assets/img/coverart/morbid.webp';
+import anuurukimg from '../assets/img/coverart/anuuruk.webp';
+import templeimg from '../assets/img/coverart/temple.webp';
+import uttertombimg from '../assets/img/coverart/uttertomb.webp';
+import rottenbimg from '../assets/img/coverart/rotten.webp';
+import violentcoffinimg from '../assets/img/coverart/violentcoffin.webp';
+import worshipimg from '../assets/img/coverart/worship.webp';
+import mystimg from '../assets/img/coverart/myst.webp';
+import funeralisimg from '../assets/img/coverart/funeralis.webp';
+import graveredimg from '../assets/img/coverart/gravered.webp'
+import tottenimg from '../assets/img/coverart/totten.webp';
+import coffinimg from '../assets/img/coverart/coffin.webp';
+import horrifyingimg from '../assets/img/coverart/horrifying.webp';
+import feretroimg from '../assets/img/coverart/feretro.webp';
+import metastasis2img from '../assets/img/coverart/metastasis2.webp';
+import butamachoimg from '../assets/img/coverart/butamacho.webp';
+import uggaeimg from '../assets/img/coverart/uggae.webp';
+import istengoatimg from '../assets/img/coverart/istengoat.webp';
+import satanicimg from '../assets/img/coverart/satanic.webp';
+import exterminioimg from '../assets/img/coverart/exterminio.webp';
+import coffin2img from '../assets/img/coverart/coffin2.webp';
+import blackimg from '../assets/img/coverart/black.webp';
+import diabolical2img from '../assets/img/coverart/diabolical2.webp';
+import putridimg from '../assets/img/coverart/putrid.webp';
+import praiseimg from '../assets/img/coverart/praise.webp';
+import uttertomb2img from '../assets/img/coverart/uttertomb2.webp';
+import insorcistimg from '../assets/img/coverart/insorcist.webp';
 
 const tracksBandcamp = [
   { 
@@ -184,14 +215,14 @@ const tracksBandcamp = [
     art: ejecutorimg, 
     title: "EJECUTOR", 
     cdName: "Armaggedon", 
-    format: "CD / Split", 
+    format: "CD Split", 
     buy: "https://apocalypticprods.com/store/product/throneum-polonia-ejecutor-chile-cd-split/" 
   },
   { id: "4025260142", 
     art: ejecutorimg, 
     title: "THRONEUM", 
     cdName: "Kaang the Praying Mantis", 
-    format: "CD / Split", 
+    format: "CD Split", 
     buy: "https://apocalypticprods.com/store/product/throneum-polonia-ejecutor-chile-cd-split/", 
   },
   { id: "4117924667", 
@@ -284,14 +315,14 @@ const tracksBandcamp = [
     art: evilimg, 
     title: "EVIL SPECTRUM", 
     cdName: "Altars in Burial Flames", 
-    format: "CD / Split", 
+    format: "CD Split", 
     buy: "" 
   },
   { id: "315591286", 
     art: evilimg, 
     title: "UTTERTOMB", 
     cdName: "Heic Noenum Pax", 
-    format: "CD / Split", 
+    format: "CD Split", 
     buy: "" 
   },
   { id: "1538902465", 
@@ -314,7 +345,7 @@ const tracksSoundcloud = [
   },
   {
     track: "https://soundcloud.com/apocalypticprods/grimorio-gloriam-sathanas",
-    art: necranastasisimg,
+    art: grimorioimg,
     title: "GRIMORIO",
     cdName: "Gloriam Sathanas",
     format: "CD",
@@ -328,42 +359,267 @@ const tracksSoundcloud = [
     format: "CD",
     buy: "" 
   },
-  { track: "https://soundcloud.com/apocalypticprods/capilla-ardiente-waltz-the-night", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/concilivm-dark-zenith", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/13-bells-of-doom-chile-tales-from-the-crypt", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/morbid-holocaust-i-keep-the-bane-to-existence", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/anuuruk-unspeakable-uncreation", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/13th-temple-sanctuary-of-the-gloom", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/uttertomb-the-necrocentrist", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/rotten-tomb-mortuary-desires", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/violent-scum-pernicious-messiah", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/coffin-curse-swallowed-by-dying-hopes", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/henosis-promethean-salvation", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/worship-death-no-salvation", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/myst-immersed-into-the-mist", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/funeralis-chile-tu-fui-ego-eris", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/gravered-hail-to-the-legions-that-rise-from-flesh-and-darkness", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/totten-korps-supreme-commanders-of-darkness", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/coffin-curse-hear-the-dead", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/horrifying-euphoric-existence", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/excoriate-ghostly-stench-of-mortal-remains", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/feretro-primordial-ceremony", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/metastasis-the-essence-that-precedes-death", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/butamacho-horrendo-y-malefico", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/uggae-command-black-winds-of-pestilence", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/istengoat-ascension", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/satanic-ripper-insane-satanic", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/exterminio-masacre", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/coffin-curse-timeless", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/black-beast-sign-the-contract", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/diabolical-messiah-chaos-in", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/swarm-of-terror-transformation", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/putrid-evocation-into-the", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/praise-the-flame-mayhemic", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/necranastasis-necroritualistic", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/grimorio-gloriam-sathanas", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/uttertomb-necrological", buy: "" },
-  { track: "https://soundcloud.com/apocalypticprods/insorcist-the-downfallen", buy: "" }
+  { 
+    track: "https://soundcloud.com/apocalypticprods/capilla-ardiente-waltz-the-night",
+    art: capillaimg,
+    title: "CAPILLA ARDIENTE",
+    cdName: "Waltz The Night",
+    format: "CD",
+    buy: "" },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/13-bells-of-doom-chile-tales-from-the-crypt", 
+    art: bellsimg,
+    title: "13 BELLS OF DOOM",
+    cdName: "Tales from the Crypt",
+    format: "CD",
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/morbid-holocaust-i-keep-the-bane-to-existence", 
+    art: morbidimg,
+    title: "MORBID HOLOCAUST",
+    cdName: "I Keep The Bane To Existence",
+    format: "CD",
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/anuuruk-unspeakable-uncreation", 
+    art: anuurukimg,
+    title: "ANUURUK",
+    cdName: "Unspeakable Uncreation",
+    format: "CD",
+    buy: ""
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/13th-temple-sanctuary-of-the-gloom", 
+    art: templeimg,
+    title: "13th TEMPLE",
+    cdName: "Southern Woods & Invernal Tombs",
+    format: "CD",
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/uttertomb-the-necrocentrist",
+    art: uttertombimg,
+    title: "UTTERTOMB",
+    cdName: "The Necrocentrist",
+    format: "CD",
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/rotten-tomb-mortuary-desires", 
+    art: rottenbimg,
+    title: "ROTTEN TOMB",
+    cdName: "Abysmatic Proclamations",
+    format: "CD",
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/violent-scum-pernicious-messiah", 
+    art:  violentcoffinimg,
+    title: "VIOLENT SCUM / COFFIN CURSE",
+    cdName: "Inmersed in Cryptic Stench",
+    format: "CD SPLIT",
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/worship-death-no-salvation",
+    art:  worshipimg,
+    title: "WORSHIP DEATH",
+    cdName: "Arise from the Cemetery",
+    format: "CD",
+    buy: ""
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/myst-immersed-into-the-mist", 
+    art:  mystimg,
+    title: "MYST",
+    cdName: "Drowned in the Oneiric Depths",
+    format: "CD",
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/funeralis-chile-tu-fui-ego-eris", 
+    art:  funeralisimg,
+    title: "FUNERALIS",
+    cdName: "Lvminis Serpens Caeremonia",
+    format: "CD",
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/gravered-hail-to-the-legions-that-rise-from-flesh-and-darkness",
+    art:  graveredimg,
+    title: "GRAVERED",
+    cdName: "Coffins Graves and Tombs",
+    format: "CD", 
+    buy: ""
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/totten-korps-supreme-commanders-of-darkness",
+    art:  tottenimg,
+    title: "TOTTEN KORPS",
+    cdName: "Supreme Commanders of Darkness",
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/coffin-curse-hear-the-dead",
+    art:  coffinimg,
+    title: "COFFIN CURSE",
+    cdName: "Into the Dark",
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/horrifying-euphoric-existence",
+    art:  horrifyingimg,
+    title: "HORRIFYING / EXCORIATE",
+    cdName: "A Dismal Journey to the Oblivion",
+    format: "CD SPLIT", 
+    buy: "" 
+  },
+  { track: "https://soundcloud.com/apocalypticprods/excoriate-ghostly-stench-of-mortal-remains", 
+    art:  horrifyingimg,
+    title: "HORRIFYING / EXCORIATE",
+    cdName: "A Dismal Journey to the Oblivion",
+    format: "CD SPLIT", 
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/feretro-primordial-ceremony", 
+    art:  feretroimg,
+    title: "FERETRO",
+    cdName: "Exhumed Rites of Horror",
+    format: "CD", 
+    buy: "" },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/metastasis-the-essence-that-precedes-death", 
+    art:  metastasis2img,
+    title: "METASTASIS",
+    cdName: "The Essence that precedes Death",
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/butamacho-horrendo-y-malefico",
+    art:  butamachoimg,
+    title: "BUTAMACHO",
+    cdName: "El Pelapecho",
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/uggae-command-black-winds-of-pestilence",
+    art:  uggaeimg,
+    title: "UGGAE COMMAND",
+    cdName: "Serpentine Emanations from Ancient Darkness",
+    format: "MCD", 
+    buy: "" 
+   },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/istengoat-ascension",
+    art:  istengoatimg,
+    title: "ISTENGOAT",
+    cdName: "Atlas Shrugged",
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/satanic-ripper-insane-satanic",
+    art:  satanicimg,
+    title: "SATANIC RIPPER",
+    cdName: "Southern Black Spells",
+    format: "CD", 
+    buy: "https://apocalypticprods.com/store/product/satanic-ripper-southern-black-spells-cd/" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/exterminio-masacre",
+    art:  exterminioimg,
+    title: "EXTERMINIO",
+    cdName: "Proclamando el Exterminio",
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/coffin-curse-timeless",
+   art:  coffin2img,
+    title: "COFFIN CURSE",
+    cdName: "Gathered Unto Death",
+    format: "MCD", 
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/black-beast-sign-the-contract",
+    art:  blackimg,
+    title: "BLACK BEAST",
+    cdName: "Demo I",
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/diabolical-messiah-chaos-in",
+    art: diabolical2img,
+    title: "DIABOLICAL MESSIAH / SWARM OF TERROR",
+    cdName: "Embrace the Advance of Victory",
+    format: "CD SPLIT", 
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/swarm-of-terror-transformation",
+    art: diabolical2img,
+    title: "DIABOLICAL MESSIAH / SWARM OF TERROR",
+    cdName: "Embrace the Advance of Victory",
+    format: "CD SPLIT ", 
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/putrid-evocation-into-the", 
+    art:  putridimg,
+    title: "PUTRID EVOCATION",
+    cdName: "Blackness Enshroud",
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/praise-the-flame-mayhemic", 
+    art:  praiseimg,
+    title: "PRAISE THE FLAME",
+    cdName: "Profane Cult",
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/necranastasis-necroritualistic", 
+    art:  grimorioimg,
+    title: "NECRANASTASIS / GRIMORIO",
+    cdName: "As it was written it shall be done... Gloriam Sathanas",
+    format: "CD SPLIT", 
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/grimorio-gloriam-sathanas", 
+     art:  grimorioimg,
+    title: "NECRANASTASIS / GRIMORIO",
+    cdName: "As it was written it shall be done... Gloriam Sathanas",
+    format: "CD SPLIT", 
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/uttertomb-necrological", 
+    art:   uttertomb2img,
+    title: "UTTERTOMB",
+    cdName: "Necrocentrism",
+    format: "CD", 
+    buy: "" 
+  },
+  { 
+    track: "https://soundcloud.com/apocalypticprods/insorcist-the-downfallen", 
+    art:  insorcistimg,
+    title: "INSORCIST",
+    cdName: "The Slaughter of Divine Creed",
+    format: "CD", 
+    buy: "" 
+  }
 ];
 
 function Releases() {
@@ -526,7 +782,7 @@ function Releases() {
             ))}
           </div>
         </div>
-
+        <Footer/> 
       </div>
     </>
   );

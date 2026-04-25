@@ -6,7 +6,7 @@ import background from '../assets/img/background.jpg';
 
 function Home() {
   return (
-    <div style={{ position: 'relative', minHeight: '100vh' }}>
+    <div style={{ position: 'relative', minHeight: '100vh', alignContent: 'center'}}>
       
       {/* Fondo */}
       <div
