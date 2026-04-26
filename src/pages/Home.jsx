@@ -6,7 +6,7 @@ import background from '../assets/img/background.jpg';
 
 function Home() {
   return (
-    <div style={{ position: 'relative', minHeight: '100vh', alignContent: 'center'}}>
+    <div style={{ position: 'relative', minHeight: '100vh' }}>
       
       {/* Fondo */}
       <div
@@ -26,7 +26,7 @@ function Home() {
 
       {/* Contenido */}
       <div className="container text-center mt-5"
-      style={{ position: 'relative', zIndex: 1 }}
+      style={{ position: 'relative', zIndex: 1, top: '100px' }}
       >
         <Logo />
         <NavMenu />
