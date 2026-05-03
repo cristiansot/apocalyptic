@@ -103,22 +103,22 @@ const tracksBandcamp = [
   { id: "3400396676", 
     art: devsimg, 
     title: "DEVS MORTVORVM", 
-    cdName: "Love for the Dead", 
+    cdName: "The Oldest Crypt", 
     format: "CD", 
-    buy: ""
+    buy: "https://apocalypticprods.com/store/product/devs-mortvorvm-chile-the-oldest-crypt-cd/"
   },
   { 
     id: "4090689596",
     art: malignantimg, 
     title: "MALIGNANT", 
-    cdName: "Under the Clock", 
+    cdName: "Beyond the Grave", 
     format: "Tape", 
     buy: "https://apocalypticprods.com/store/product/malignant-beyond-the-grave-tape/"
   },
   { id: "71354888", 
     art: gorjeoimg, 
     title: "GORJEO SEGLAR", 
-    cdName: "El Vaivén & La Muerte", 
+    cdName: "Acronvs", 
     format: "CD", 
     buy: "https://apocalypticprods.com/store/product/gorjeo-seglar-chile-acronvs-cd/" 
   },
@@ -126,15 +126,15 @@ const tracksBandcamp = [
     id: "1730663829", 
     art: strigoiimg, 
     title: "STRIGOI", 
-    cdName: "Ultratomb", 
-    format: "", 
+    cdName: "Black Magic Fumes", 
+    format: "CD", 
     buy: "" 
   },
   { 
     id: "1852725793", 
     art: metastasisimg, 
     title: "METASTASIS", 
-    cdName: "Nameless Grave", 
+    cdName: "Fatal Morphosis", 
     format: "CD", 
     buy: "https://apocalypticprods.com/store/product/metastasis-chile-fatal-morphosis-cd/" 
   },
@@ -142,31 +142,31 @@ const tracksBandcamp = [
     id: "2908697663", 
     art: abrekadaverimg, 
     title: "ABREKADAVER ", 
-    cdName: "Aleph", 
-    format: "", 
-    buy: "" 
+    cdName: "Shin", 
+    format: "CD", 
+    buy: "https://apocalypticprods.com/store/product/abrekadaver-chile-shin-cd/" 
   },
   { 
     id: "3197642165", 
     art: lextalionisimg2, 
     title: "LEX TALIONIS", 
-    cdName: "Triumph of Darkness", 
-    format: "CD", 
-    buy: "" 
+    cdName: "The Initiation", 
+    format: "MCD", 
+    buy: "https://apocalypticprods.com/store/product/lex-talionis-chile-the-initiation-mcd/" 
   },
   { 
     id: "2433724059", 
     art: cambionimg, 
     title: "CAMBION", 
-    cdName: "Scourge of Power", 
-    format: "CD", 
-    buy: "" 
+    cdName: "Cults of Black Death", 
+    format: "CD SPLIT", 
+    buy: "https://apocalypticprods.com/store/product/violent-scum-chile-cambion-cult-of-black-death-cd-split/" 
   },
   { 
     id: "3725037500", 
     art: bloodimg, 
     title: "BLOOD OATH", 
-    cdName: "The Journey Into The Depths", 
+    cdName: "Lost in an Eternal Silence", 
     format: "CD", 
     buy: ""
   },
@@ -174,23 +174,23 @@ const tracksBandcamp = [
     id: "3907322557", 
     art: violentimg, 
     title: "VIOLENT SCUM", 
-    cdName: "Hematic Dinner", 
-    format: "CD", 
-    buy: "" 
+    cdName: "Cults of Black Death", 
+    format: "CD SPLIT", 
+    buy: "https://apocalypticprods.com/store/product/violent-scum-chile-cambion-cult-of-black-death-cd-split/" 
   },
   { 
     id: "2607013922", 
     art: sulphuricdeathimg, 
     title: "SULPHURIC DEATH",
-    cdName: "Immersed Into Eternal Fire",
-    format: "CD", 
+    cdName: "Beyond the Void of Doom",
+    format: "MCD", 
     buy: "" 
   },
   { 
     id: "446909161", 
     art: necrolatriaimg, 
     title: "NECROLATRIA", 
-    cdName: "Secrets from the Abysmal Chasms", 
+    cdName: "Where Light Has No Domain", 
     format: "CD", 
     buy: ""
   },
@@ -198,7 +198,7 @@ const tracksBandcamp = [
     id: "3512396342", 
     art: sadisticimg, 
     title: "SADISTIC", 
-    cdName: "Denied", 
+    cdName: "Rotting Eternal", 
     format: "CD", 
     buy: "" 
   },
@@ -206,67 +206,67 @@ const tracksBandcamp = [
     id: "2782409824", 
     art: miserycoreimg, 
     title: "MISERYCORE", 
-    cdName: "Milicia de Rabia", 
-    format: "CD", 
+    cdName: "Unleashing Hell´s Rage", 
+    format: "CD SPLIT", 
     buy: "" 
   },
   { 
     id: "1338992546", 
     art: ejecutorimg, 
     title: "EJECUTOR", 
-    cdName: "Armaggedon", 
+    cdName: "Ejecutor", 
     format: "CD Split", 
     buy: "https://apocalypticprods.com/store/product/throneum-polonia-ejecutor-chile-cd-split/" 
   },
   { id: "4025260142", 
     art: ejecutorimg, 
     title: "THRONEUM", 
-    cdName: "Kaang the Praying Mantis", 
+    cdName: "Throneum", 
     format: "CD Split", 
     buy: "https://apocalypticprods.com/store/product/throneum-polonia-ejecutor-chile-cd-split/", 
   },
   { id: "4117924667", 
     art: unholyimg, 
     title: "UNHOLY FORCE", 
-    cdName: "Covenant of Death", 
-    format: "CD", 
+    cdName: "Unleashing Hell´s Rage", 
+    format: "CD SPLIT", 
     buy: "" 
   },
   { id: "3961142673", 
     art: phantasmagoreimg, 
     title: "PHANTASMAGORE", 
-    cdName: "Overwhelming Recognition", 
-    format: "CD", 
+    cdName: "Insurrection or Submission", 
+    format: "MCD", 
     buy: "" 
   },
   { 
     id: "3301606792", 
     art: exanimatvumimg, 
     title: "EXANIMATVM", 
-    cdName: "Magna Veritas", 
+    cdName: "Sollvm Ipsa Mor", 
     format: "CD", 
-    buy: "" 
+    buy: "https://apocalypticprods.com/store/product/exanimatvm-chile-sollvm-ipsa-mor-cd/" 
   },
   { 
     id: "1156996036", 
     art: deathimg, 
     title: "DEATH PREVAILS", 
-    cdName: "Burning Flesh Sacrifice", 
-    format: "CD - falta subirl el producto para hacer el link", 
+    cdName: "The Raid", 
+    format: "MCD", 
     buy: "" 
   },
   { id: "1169274164", 
     art: deathlyimg, 
     title: "DEATHLY SCYTHE", 
-    cdName: "Evil Magick", 
+    cdName: "Celestial Darkness", 
     format: "CD", 
-    buy: "" 
+    buy: "https://apocalypticprods.com/store/product/deathly-scythe-chile-celestial-darkness-cd/" 
   },
   { 
     id: "931535832", 
     art: diabolicalimg, 
     title: "DIABOLICAL MESSIAH", 
-    cdName: "Unmerciful Campaign of Hate", 
+    cdName: "Demonic Weapons Against the Sacred", 
     format: "CD", 
     buy: "" 
   },
@@ -274,8 +274,8 @@ const tracksBandcamp = [
     id: "284168913", 
     art: gatesimg, 
     title: "GATES OF TYRANT", 
-    cdName: "Liberation Ceremony", 
-    format: "CD", 
+    cdName: "Vortex Towards Death", 
+    format: "TAPE", 
     buy: "" 
   },
   { 
@@ -298,7 +298,7 @@ const tracksBandcamp = [
     id: "15267059", 
     art: suppressionimg, 
     title: "SUPPRESSION", 
-    cdName: "Fruit of Sickness", 
+    cdName: "Repugnant Remains", 
     format: "CD", 
     buy: "" 
   },
@@ -306,7 +306,7 @@ const tracksBandcamp = [
     id: "3173831858", 
     art: cenotafioimg, 
     title: "CENOTAFIO", 
-    cdName: "El Martirio", 
+    cdName: "Larvae Tedeum Teratos", 
     format: "CD", 
     buy: "https://apocalypticprods.com/store/product/cenotafio-chile-larvae-tedeum-teratos-cd/" 
   },
@@ -314,7 +314,7 @@ const tracksBandcamp = [
     id: "2068412031", 
     art: evilimg, 
     title: "EVIL SPECTRUM", 
-    cdName: "Altars in Burial Flames", 
+    cdName: "Heic Noenum Pax", 
     format: "CD Split", 
     buy: "" 
   },
@@ -328,7 +328,7 @@ const tracksBandcamp = [
   { id: "1538902465", 
     art: conciliumimg, 
     title: "CONCILIVM", 
-    cdName: "Dark Zenith", 
+    cdName: "The Veiled Enigma", 
     format: "CD", 
     buy: "" 
   }
@@ -339,15 +339,7 @@ const tracksSoundcloud = [
     track: "https://soundcloud.com/apocalypticprods/henosis-promethean-salvation", 
     art: henosisimg,
     title: "HENOSIS",
-    cdName: "Promethean Salvation",
-    format: "CD",
-    buy: "" 
-  },
-  {
-    track: "https://soundcloud.com/apocalypticprods/grimorio-gloriam-sathanas",
-    art: grimorioimg,
-    title: "GRIMORIO",
-    cdName: "Gloriam Sathanas",
+    cdName: "Unleash the Ophidian Essence from the Reverse of Creation",
     format: "CD",
     buy: "" 
   },
@@ -355,7 +347,7 @@ const tracksSoundcloud = [
     track: "https://soundcloud.com/apocalypticprods/unaussprechlichen-kulten-nephren-ka-nyarlathotep", 
     art: ukultenimg,
     title: "U KULTEN",
-    cdName: "Nephren Ka-Nyarlathotep (Starry Wisdom)",
+    cdName: "Sign the Book of Death",
     format: "CD",
     buy: "" 
   },
@@ -363,14 +355,14 @@ const tracksSoundcloud = [
     track: "https://soundcloud.com/apocalypticprods/capilla-ardiente-waltz-the-night",
     art: capillaimg,
     title: "CAPILLA ARDIENTE",
-    cdName: "Waltz The Night",
+    cdName: "Solve et Coagula",
     format: "CD",
     buy: "" },
   { 
     track: "https://soundcloud.com/apocalypticprods/13-bells-of-doom-chile-tales-from-the-crypt", 
     art: bellsimg,
     title: "13 BELLS OF DOOM",
-    cdName: "Tales from the Crypt",
+    cdName: "13 Bells of Doom",
     format: "CD",
     buy: "" 
   },
@@ -378,7 +370,7 @@ const tracksSoundcloud = [
     track: "https://soundcloud.com/apocalypticprods/morbid-holocaust-i-keep-the-bane-to-existence", 
     art: morbidimg,
     title: "MORBID HOLOCAUST",
-    cdName: "I Keep The Bane To Existence",
+    cdName: "Atmospheric Armageddon",
     format: "CD",
     buy: "" 
   },
@@ -410,7 +402,7 @@ const tracksSoundcloud = [
     track: "https://soundcloud.com/apocalypticprods/rotten-tomb-mortuary-desires", 
     art: rottenbimg,
     title: "ROTTEN TOMB",
-    cdName: "Abysmatic Proclamations",
+    cdName: "Necropolis",
     format: "CD",
     buy: "" 
   },
@@ -427,7 +419,7 @@ const tracksSoundcloud = [
     art:  worshipimg,
     title: "WORSHIP DEATH",
     cdName: "Arise from the Cemetery",
-    format: "CD",
+    format: "MCD",
     buy: ""
   },
   { 
@@ -435,7 +427,7 @@ const tracksSoundcloud = [
     art:  mystimg,
     title: "MYST",
     cdName: "Drowned in the Oneiric Depths",
-    format: "CD",
+    format: "MCD",
     buy: "" 
   },
   { 
@@ -451,7 +443,7 @@ const tracksSoundcloud = [
     art:  graveredimg,
     title: "GRAVERED",
     cdName: "Coffins Graves and Tombs",
-    format: "CD", 
+    format: "MCD", 
     buy: ""
   },
   { 
@@ -460,14 +452,14 @@ const tracksSoundcloud = [
     title: "TOTTEN KORPS",
     cdName: "Supreme Commanders of Darkness",
     format: "CD", 
-    buy: "" 
+    buy: "https://apocalypticprods.com/store/product/totten-korps-chile-supreme-commanders-of-darkness-digipack-cd/" 
   },
   { 
     track: "https://soundcloud.com/apocalypticprods/coffin-curse-hear-the-dead",
     art:  coffinimg,
     title: "COFFIN CURSE",
     cdName: "Into the Dark",
-    format: "CD", 
+    format: "MCD", 
     buy: "" 
   },
   { 
@@ -490,7 +482,7 @@ const tracksSoundcloud = [
     art:  feretroimg,
     title: "FERETRO",
     cdName: "Exhumed Rites of Horror",
-    format: "CD", 
+    format: "MCD", 
     buy: "" },
   { 
     track: "https://soundcloud.com/apocalypticprods/metastasis-the-essence-that-precedes-death", 
@@ -553,7 +545,7 @@ const tracksSoundcloud = [
     art:  blackimg,
     title: "BLACK BEAST",
     cdName: "Demo I",
-    format: "CD", 
+    format: "MCD", 
     buy: "" 
   },
   { 
@@ -577,7 +569,7 @@ const tracksSoundcloud = [
     art:  putridimg,
     title: "PUTRID EVOCATION",
     cdName: "Blackness Enshroud",
-    format: "CD", 
+    format: "MCD", 
     buy: "" 
   },
   { 
@@ -585,7 +577,7 @@ const tracksSoundcloud = [
     art:  praiseimg,
     title: "PRAISE THE FLAME",
     cdName: "Profane Cult",
-    format: "CD", 
+    format: "MCD", 
     buy: "" 
   },
   { 
@@ -609,7 +601,7 @@ const tracksSoundcloud = [
     art:   uttertomb2img,
     title: "UTTERTOMB",
     cdName: "Necrocentrism",
-    format: "CD", 
+    format: "MCD", 
     buy: "" 
   },
   { 
