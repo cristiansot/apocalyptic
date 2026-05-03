@@ -154,6 +154,14 @@ const tracksBandcamp = [
     format: "MCD", 
     buy: "https://apocalypticprods.com/store/product/lex-talionis-chile-the-initiation-mcd/" 
   },
+    { 
+    id: "3725037500", 
+    art: bloodimg, 
+    title: "BLOOD OATH", 
+    cdName: "Lost in an Eternal Silence", 
+    format: "CD", 
+    buy: ""
+  },
   { 
     id: "2433724059", 
     art: cambionimg, 
@@ -161,14 +169,6 @@ const tracksBandcamp = [
     cdName: "Cults of Black Death", 
     format: "CD SPLIT", 
     buy: "https://apocalypticprods.com/store/product/violent-scum-chile-cambion-cult-of-black-death-cd-split/" 
-  },
-  { 
-    id: "3725037500", 
-    art: bloodimg, 
-    title: "BLOOD OATH", 
-    cdName: "Lost in an Eternal Silence", 
-    format: "CD", 
-    buy: ""
   },
   { 
     id: "3907322557", 
@@ -194,18 +194,18 @@ const tracksBandcamp = [
     format: "CD", 
     buy: ""
   },
-  { 
-    id: "3512396342", 
-    art: sadisticimg, 
-    title: "SADISTIC", 
-    cdName: "Rotting Eternal", 
-    format: "CD", 
-    buy: "" 
-  },
+
   { 
     id: "2782409824", 
     art: miserycoreimg, 
     title: "MISERYCORE", 
+    cdName: "Unleashing Hell´s Rage", 
+    format: "CD SPLIT", 
+    buy: "" 
+  },
+    { id: "4117924667", 
+    art: unholyimg, 
+    title: "UNHOLY FORCE", 
     cdName: "Unleashing Hell´s Rage", 
     format: "CD SPLIT", 
     buy: "" 
@@ -225,11 +225,12 @@ const tracksBandcamp = [
     format: "CD Split", 
     buy: "https://apocalypticprods.com/store/product/throneum-polonia-ejecutor-chile-cd-split/", 
   },
-  { id: "4117924667", 
-    art: unholyimg, 
-    title: "UNHOLY FORCE", 
-    cdName: "Unleashing Hell´s Rage", 
-    format: "CD SPLIT", 
+    { 
+    id: "3512396342", 
+    art: sadisticimg, 
+    title: "SADISTIC", 
+    cdName: "Rotting Eternal", 
+    format: "CD", 
     buy: "" 
   },
   { id: "3961142673", 
@@ -253,7 +254,7 @@ const tracksBandcamp = [
     title: "DEATH PREVAILS", 
     cdName: "The Raid", 
     format: "MCD", 
-    buy: "" 
+    buy: "https://apocalypticprods.com/store/product/death-prevails-chile-the-raid-mcd/" 
   },
   { id: "1169274164", 
     art: deathlyimg, 
@@ -310,6 +311,13 @@ const tracksBandcamp = [
     format: "CD", 
     buy: "https://apocalypticprods.com/store/product/cenotafio-chile-larvae-tedeum-teratos-cd/" 
   },
+  { id: "1538902465", 
+    art: conciliumimg, 
+    title: "CONCILIVM", 
+    cdName: "The Veiled Enigma", 
+    format: "CD", 
+    buy: "" 
+  },
   { 
     id: "2068412031", 
     art: evilimg, 
@@ -325,13 +333,6 @@ const tracksBandcamp = [
     format: "CD Split", 
     buy: "" 
   },
-  { id: "1538902465", 
-    art: conciliumimg, 
-    title: "CONCILIVM", 
-    cdName: "The Veiled Enigma", 
-    format: "CD", 
-    buy: "" 
-  }
 ];
 
 const tracksSoundcloud = [
@@ -548,6 +549,14 @@ const tracksSoundcloud = [
     format: "MCD", 
     buy: "" 
   },
+    { 
+    track: "https://soundcloud.com/apocalypticprods/putrid-evocation-into-the", 
+    art:  putridimg,
+    title: "PUTRID EVOCATION",
+    cdName: "Blackness Enshroud",
+    format: "MCD", 
+    buy: "" 
+  },
   { 
     track: "https://soundcloud.com/apocalypticprods/diabolical-messiah-chaos-in",
     art: diabolical2img,
@@ -565,18 +574,18 @@ const tracksSoundcloud = [
     buy: "" 
   },
   { 
-    track: "https://soundcloud.com/apocalypticprods/putrid-evocation-into-the", 
-    art:  putridimg,
-    title: "PUTRID EVOCATION",
-    cdName: "Blackness Enshroud",
-    format: "MCD", 
-    buy: "" 
-  },
-  { 
     track: "https://soundcloud.com/apocalypticprods/praise-the-flame-mayhemic", 
     art:  praiseimg,
     title: "PRAISE THE FLAME",
     cdName: "Profane Cult",
+    format: "MCD", 
+    buy: "" 
+  },
+    { 
+    track: "https://soundcloud.com/apocalypticprods/uttertomb-necrological", 
+    art:   uttertomb2img,
+    title: "UTTERTOMB",
+    cdName: "Necrocentrism",
     format: "MCD", 
     buy: "" 
   },
@@ -594,14 +603,6 @@ const tracksSoundcloud = [
     title: "NECRANASTASIS / GRIMORIO",
     cdName: "As it was written it shall be done... Gloriam Sathanas",
     format: "CD SPLIT", 
-    buy: "" 
-  },
-  { 
-    track: "https://soundcloud.com/apocalypticprods/uttertomb-necrological", 
-    art:   uttertomb2img,
-    title: "UTTERTOMB",
-    cdName: "Necrocentrism",
-    format: "MCD", 
     buy: "" 
   },
   { 
