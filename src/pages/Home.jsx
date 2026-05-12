@@ -1,7 +1,6 @@
 import Logo from '../components/Logo';
 import NavMenu from '../components/NavMenu';
 import Footer from '../components/Footer';
-import Whatsapp from '../components/Whatsapp';
 import background from '../assets/img/background.jpg';
 
 function Home() {
@@ -30,7 +29,6 @@ function Home() {
       >
         <Logo />
         <NavMenu />
-        <Whatsapp />
         <Footer />
       </div>
 
